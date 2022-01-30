@@ -1,0 +1,23 @@
+#writing and appending
+f=open("harry2.txt","w")
+a=f.write("Harry Bhai\n")
+print(a)
+f.close()
+f=open("harry2.txt","a")
+a=f.write("He is a vvvvvv experienced person in coding\t")
+print(a)
+f.close()
+f=open("harry2.txt","a")
+a=f.write("He is a vvvvv good in coding\n")
+print(a)
+f.close()
+#It is use for print all lines with spaces values like \n,\tetc
+f=open("harry.txt")
+print(f.readlines())
+f.close()
+#reading and writing both
+f=open("harry2.txt","r+")
+a=f.read()
+print(a)
+b=f.write("Your youtube channel is very very very beneficial")
+f.close()
